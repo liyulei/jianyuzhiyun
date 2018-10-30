@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+	<meta charset="utf-8" />
+	<title>Metronic | Admin Dashboard Template</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<!-- BEGIN GLOBAL MANDATORY STYLES -->
+	<link href="../media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="../media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+	<link href="../media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="../media/css/style-metro.css" rel="stylesheet" type="text/css"/>
+	<link href="../media/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="../media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="../media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+	<link href="../media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+	<!-- END GLOBAL MANDATORY STYLES -->
+	<!-- BEGIN PAGE LEVEL STYLES -->
+	<link href="../media/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+	<link href="../media/css/daterangepicker.css" rel="stylesheet" type="text/css" />
+	<link href="../media/css/fullcalendar.css" rel="stylesheet" type="text/css"/>
+	<link href="../media/css/jqvmap.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link href="../media/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+	<!-- END PAGE LEVEL STYLES -->
+	<link rel="stylesheet" type="text/css" href="../media/css/select2_metro.css" />
+	<link rel="stylesheet" href="../media/css/DT_bootstrap.css" />
+	<link rel="stylesheet" href="../media/css/style/nomal.css" />
+	<!-- END PAGE LEVEL STYLES -->
+	<link rel="shortcut icon" href="../media/image/favicon.ico" />
+</head>
+
+<body class="page-header-fixed">
+
+	<!-- 头部导航 -->
+	<div class="header navbar navbar-inverse navbar-fixed-top">
+
+		<!-- BEGIN TOP NAVIGATION BAR -->
+
+		<div class="navbar-inner">
+
+			<div class="container-fluid">
+
+				<!--顶部标题-->
+
+				<a class="brand" href="index.html">
+
+					<img src="../media/image/JianYuMIS%20v2.0.png" alt=""/>
+
+				</a>
+
+				<!-- END LOGO -->
+
+				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+
+				<a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+
+				<img src="media/image/menu-toggler.png" alt="" />
+
+				</a>          
+
+				<!-- END RESPONSIVE MENU TOGGLER -->            
+
+				<!-- BEGIN TOP NAVIGATION MENU -->              
+
+				<ul class="nav pull-right">
+
+					<!-- BEGIN NOTIFICATION DROPDOWN -->   
+
+					<li class="dropdown" id="header_notification_bar">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+						<i class="icon-warning-sign"></i>
+
+						<span class="badge">6</span>
+
+						</a>
+
+						<ul class="dropdown-menu extended notification">
+
+							<li>
+
+								<p>You have 14 new notifications</p>
+
+							</li>
+
+							<li>
+
+								<a href="#">
+
+								<span class="label label-success"><i class="icon-plus"></i></span>
+
+								New user registered. 
+
+								<span class="time">Just now</span>
+
+								</a>
+
+							</li>
+
+							<li>
+
+								<a href="#">
+
+								<span class="label label-important"><i class="icon-bolt"></i></span>
+
+								Server #12 overloaded. 
+
+								<span class="time">15 mins</span>
+
+								</a>
+
+							</li>
+
+							<li>
+
+								<a href="#">
+
+								<span class="label label-warning"><i class="icon-bell"></i></span>
+
+								Server #2 not respoding.
+
+								<span class="time">22 mins</span>
+
+								</a>
+
+							</li>
+
+							<li>
+
+								<a href="#">
+
+								<span class="label label-info"><i class="icon-bullhorn"></i></span>
+
+								Application error.
+
+								<span class="time">40 mins</span>
+
+								</a>
+
+							</li>
+
+							<li>
+
+								<a href="#">
+
+								<span class="label label-important"><i class="icon-bolt"></i></span>
+
+								Database overloaded 68%. 
+
+								<span class="time">2 hrs</span>
+
+								</a>
+
+							</li>
+
+							<li>
+
+								<a href="#">
+
+								<span class="label label-important"><i class="icon-bolt"></i></span>
+
+								2 user IP blocked.
+
+								<span class="time">5 hrs</span>
+
+								</a>
+
+							</li>
+
+							<li class="external">
+
+								<a href="#">See all notifications <i class="m-icon-swapright"></i></a>
+
+							</li>
+
+						</ul>
+
+					</li>
+
+					<!-- END NOTIFICATION DROPDOWN -->
+
+					<!-- BEGIN INBOX DROPDOWN -->
+
+					<li class="dropdown" id="header_inbox_bar">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+						<i class="icon-envelope"></i>
+
+						<span class="badge">5</span>
+
+						</a>
+
+						<ul class="dropdown-menu extended inbox">
+
+							<li>
+
+								<p>You have 12 new messages</p>
+
+							</li>
+
+							<li>
+
+								<a href="inbox.html?a=view">
+
+								<span class="photo"><img src="media/image/avatar2.jpg" alt="" /></span>
+
+								<span class="subject">
+
+								<span class="from">Lisa Wong</span>
+
+								<span class="time">Just Now</span>
+
+								</span>
+
+								<span class="message">
+
+								Vivamus sed auctor nibh congue nibh. auctor nibh
+
+								auctor nibh...
+
+								</span>  
+
+								</a>
+
+							</li>
+
+							<li>
+
+								<a href="inbox.html?a=view">
+
+								<span class="photo"><img src="./media/image/avatar3.jpg" alt="" /></span>
+
+								<span class="subject">
+
+								<span class="from">Richard Doe</span>
+
+								<span class="time">16 mins</span>
+
+								</span>
+
+								<span class="message">
+
+								Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh
+
+								auctor nibh...
+
+								</span>  
+
+								</a>
+
+							</li>
+
+							<li>
+
+								<a href="inbox.html?a=view">
+
+								<span class="photo"><img src="./media/image/avatar1.jpg" alt="" /></span>
+
+								<span class="subject">
+
+								<span class="from">Bob Nilson</span>
+
+								<span class="time">2 hrs</span>
+
+								</span>
+
+								<span class="message">
+
+								Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+
+								auctor nibh...
+
+								</span>  
+
+								</a>
+
+							</li>
+
+							<li class="external">
+
+								<a href="inbox.html">See all messages <i class="m-icon-swapright"></i></a>
+
+							</li>
+
+						</ul>
+
+					</li>
+
+					<!-- BEGIN USER LOGIN DROPDOWN -->
+
+					<li class="dropdown user">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+						<img alt="" src="../media/image/avatar1_small.jpg" />
+
+						<span class="username">Adimin</span>
+
+						<i class="icon-angle-down"></i>
+
+						</a>
+
+						<ul class="dropdown-menu">
+
+							<li><a href="extra_lock.html"><i class="icon-lock"></i>修改密码</a></li>
+
+							<li><a href="login.html"><i class="icon-key"></i>退出</a></li>
+
+						</ul>
+
+					</li>
+
+					<!-- END USER LOGIN DROPDOWN -->
+
+				</ul>
+
+				<!-- END TOP NAVIGATION MENU --> 
+
+			</div>
+
+		</div>
+
+		<!-- END TOP NAVIGATION BAR -->
+
+	</div>
+    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+
+	<!-- 内容区-->
+	<div class="page-container">
+
+		<!-- 侧边栏 -->
+		<div class="page-sidebar nav-collapse collapse">
+
+			<!-- BEGIN SIDEBAR MENU -->        
+
+			<ul class="page-sidebar-menu">
+
+				<li>
+
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+
+					<div class="sidebar-toggler hidden-phone"></div>
+
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+
+				</li>
+
+				<li style="height: 20px;"></li>
+
+				<!--用户管理-->
+				<li class="start">
+
+					<a href="../list/index.html">
+
+					<i class="icon-user"></i>
+
+					<span class="title">用户管理</span>
+
+					<span class="selected"></span>
+
+					</a>
+
+				</li>
+				<!--审核管理-->
+				<li class="">
+
+					<a href="../list/user-control.html">
+
+						<i class="icon-magnet"></i>
+
+						<span class="title">审核管理</span>
+
+						<span class="selected"></span>
+
+					</a>
+
+				</li>
+				<!--车辆管理-->
+				<li class="">
+
+					<a href="../list/car-control.html">
+
+						<i class="icon-truck"></i>
+
+						<span class="title">车辆管理</span>
+
+						<span class="selected"></span>
+
+					</a>
+
+				</li>
+				<!--托运单管理-->
+				<li class="">
+
+					<a href="../list/bookNode-control.html">
+
+						<i class="icon-credit-card"></i>
+
+						<span class="title">托运单管理</span>
+
+						<span class="selected"></span>
+
+					</a>
+
+				</li>
+				<!--运单管理-->
+				<li class="">
+
+					<a href="../list/waybill-control.html">
+
+						<i class="icon-print"></i>
+
+						<span class="title">运单管理</span>
+
+						<span class="selected"></span>
+
+					</a>
+
+				</li>
+				<!--承运单管理-->
+				<li class="">
+
+					<a href="../list/carrierSingle-control.html">
+
+						<i class="icon-inbox"></i>
+
+						<span class="title">承运单管理</span>
+
+						<span class="selected"></span>
+
+					</a>
+
+				</li>
+				<!--结算管理-->
+				<li class="">
+
+					<a href="javascript:;">
+
+						<i class="icon-edit"></i>
+
+						<span class="title">结算管理</span>
+
+						<span class="arrow "></span>
+
+					</a>
+
+					<ul class="sub-menu">
+
+						<li >
+
+							<a href="account-control.html">结算</a>
+
+						</li>
+
+						<li >
+
+							<a href="water-control.html">流水</a>
+
+						</li>
+
+					</ul>
+
+				</li>
+				<!--设置管理-->
+				<li class="">
+					<a href="javascript:;">
+						<i class="icon-cogs"></i>
+						<span class="title">设置管理</span>
+						<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li >
+							<a href="client-control.html">客户管理</a>
+						</li>
+						<li >
+							<a href="area-control.html">区域管理</a>
+						</li>
+						<li >
+							<a href="line-control.html">线路管理</a>
+						</li>
+						<li >
+							<a href="blacklist-control.html">黑名单管理</a>
+						</li>
+						<li >
+							<a href="netin-control.html">入网检测管理</a>
+						</li>
+						<li >
+							<a href="truck-control.html">多项设置管理</a>
+						</li>
+					</ul>
+				</li>
+				<!--角色管理-->
+				<li class="">
+
+					<a href="jurisdiction-control.html">
+
+						<i class="icon-key"></i>
+
+						<span class="title">角色管理</span>
+
+						<span class="selected"></span>
+
+					</a>
+
+				</li>
+				<!--人员管理-->
+				<li class="active">
+					<a href="javascript:;">
+						<i class="icon-group"></i>
+						<span class="title">人员管理</span>
+						<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li >
+							<a href="system-control.html">系统人员管理</a>
+						</li>
+						<li class="active">
+							<a href="scene-control.html">现场人员管理</a>
+						</li>
+						<li >
+							<a href="credentials-control.html">证件审核人员管理</a>
+						</li>
+						<li >
+							<a href="info-control.html">信息部审核人员管理</a>
+						</li>
+						<li >
+							<a href="accountPeo-control.html">结算人员管理</a>
+						</li>
+					</ul>
+				</li>
+				<!--菜单管理-->
+				<li class="last">
+
+					<a href="menu-control.html">
+
+						<i class="icon-sitemap"></i>
+
+						<span class="title">菜单管理</span>
+
+						<span class="selected"></span>
+
+					</a>
+
+				</li>
+				<!--广告管理-->
+				<li class="">
+
+					<a href="advertising-control.html">
+
+						<i class="icon-print"></i>
+
+						<span class="title">广告管理</span>
+
+						<span class="selected"></span>
+
+					</a>
+
+				</li>
+
+			</ul>
+
+			<!-- END SIDEBAR MENU -->
+
+		</div>
+
+		<!-- 内容块 -->
+		<div class="page-content">
+			<div class="container-fluid">
+				<div class="row-fluid no-top1">
+					<div class="span12">
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home"></i>
+
+								<a href="index.html">Home</a>
+
+								<i class="icon-angle-right"></i>
+
+							</li>
+
+							<li>
+								<a href="#">人员管理</a>
+								<i class="icon-angle-right"></i>
+							</li>
+							<li>
+								<a href="#">现场人员管理</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!--表格内容-->
+				<div class="row-fluid">
+
+					<div class="span12">
+
+						<!-- BEGIN EXAMPLE TABLE PORTLET-->
+
+						<div class="portlet box blue">
+
+							<div class="portlet-title">
+
+								<div class="caption">现场人员管理</div>
+
+							</div>
+
+							<div class="portlet-body">
+
+								<div class="row-fluid no-top1">
+									<div class="row-fluid">
+										<div class="span6" style="width: 10%;">
+											<div class="dataTables_length">
+												<a href="#myModal1" role="button" class="btn btn-primary yellow" data-toggle="modal">添加新用户</a>
+												<!--<button type="button" class="btn yellow">添加新用户</button>-->
+											</div>
+										</div>
+										<div class="span6 top-td top-td" >
+											<div class="dataTables_filter">
+												<label>
+													<button type="button" class="btn red">筛选</button>
+												</label>
+											</div>
+											<div class="dataTables_filter">
+												<label style="margin-right: 30px;">
+													<input type="text" aria-controls="sample_editable_1" class="m-wrap medium" placeholder="请输入手机号">
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<table class="table table-striped table-hover table-bordered">
+
+									<thead>
+
+									<tr>
+
+										<th>用户ID</th>
+
+										<th>用户手机号(账号)</th>
+
+										<th>用户姓名</th>
+
+										<th>注册时间</th>
+
+										<th>用户状态</th>
+
+										<th>操作</th>
+
+										<th>账号冻结</th>
+
+									</tr>
+
+									</thead>
+
+									<tbody>
+
+									<tr class="">
+
+										<td>688</td>
+
+										<td>1305569551</td>
+
+										<td>李志远</td>
+
+										<td>2018-08-13 09:53:35</td>
+
+										<td>正常</td>
+
+										<td>
+											<a href="#myModal2" data-toggle="modal" class="btn purple icn-only" title="修改信息"><i class="icon-edit icon-white"></i></a>
+										</td>
+
+										<td>
+											<a href="#myModal3" data-toggle="modal" class="btn blue disabled">账号冻结</a>
+										</td>
+									</tr>
+
+									<tr class="">
+
+										<td>688</td>
+
+										<td>1305569551</td>
+
+										<td>李志远</td>
+
+										<td>2018-08-13 09:53:35</td>
+
+										<td>正常</td>
+
+										<td>
+											<a href="#myModal2" data-toggle="modal" class="btn purple icn-only" title="修改信息"><i class="icon-edit icon-white"></i></a>
+										</td>
+
+										<td>
+											<a href="#myModal3" data-toggle="modal" class="btn blue disabled">账号冻结</a>
+										</td>
+									</tr>
+
+									<tr class="">
+
+										<td>688</td>
+
+										<td>1305569551</td>
+
+										<td>李志远</td>
+
+										<td>2018-08-13 09:53:35</td>
+
+										<td>正常</td>
+
+										<td>
+											<a href="#myModal2" data-toggle="modal" class="btn purple icn-only" title="修改信息"><i class="icon-edit icon-white"></i></a>
+										</td>
+
+										<td>
+											<a href="#myModal3" data-toggle="modal" class="btn blue disabled">账号冻结</a>
+										</td>
+									</tr>
+
+									<tr class="">
+
+										<td>688</td>
+
+										<td>1305569551</td>
+
+										<td>李志远</td>
+
+										<td>2018-08-13 09:53:35</td>
+
+										<td>正常</td>
+
+										<td>
+											<a href="#myModal2" data-toggle="modal" class="btn purple icn-only" title="修改信息"><i class="icon-edit icon-white"></i></a>
+										</td>
+
+										<td>
+											<a href="#myModal3" data-toggle="modal" class="btn blue disabled">账号冻结</a>
+										</td>
+									</tr>
+
+									<tr class="">
+
+										<td>688</td>
+
+										<td>1305569551</td>
+
+										<td>李志远</td>
+
+										<td>2018-08-13 09:53:35</td>
+
+										<td>正常</td>
+
+										<td>
+											<a href="#myModal2" data-toggle="modal" class="btn purple icn-only" title="修改信息"><i class="icon-edit icon-white"></i></a>
+										</td>
+
+										<td>
+											<a href="#myModal3" data-toggle="modal" class="btn blue disabled">账号冻结</a>
+										</td>
+									</tr>
+
+									<tr class="">
+
+										<td>688</td>
+
+										<td>1305569551</td>
+
+										<td>李志远</td>
+
+										<td>2018-08-13 09:53:35</td>
+
+										<td>正常</td>
+
+										<td>
+											<a href="#myModal2" data-toggle="modal" class="btn purple icn-only" title="修改信息"><i class="icon-edit icon-white"></i></a>
+										</td>
+
+										<td>
+											<a href="#myModal3" data-toggle="modal" class="btn blue disabled">账号冻结</a>
+										</td>
+									</tr>
+
+									</tbody>
+
+								</table>
+
+								<div class="row-fluid">
+									<div class="span6"></div>
+									<div class="span6">
+										<div class="dataTables_paginate paging_bootstrap pagination">
+											<ul>
+												<li class="prev disabled">
+													<a href="#">← <span class="hidden-480">Prev</span></a>
+												</li>
+												<li class="active">
+													<a href="#">1</a>
+												</li>
+												<li>
+													<a href="#">2</a>
+												</li>
+												<li class="next">
+													<a href="#"><span class="hidden-480">Next</span> → </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- END EXAMPLE TABLE PORTLET-->
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- END PAGE CONTAINER-->
+
+		</div>
+
+	</div>
+
+	<!-- 底部 -->
+	<div class="footer">
+
+		<div class="footer-inner">
+
+			2013 &copy; Metronic by keenthemes.Collect from <a href="http://www.cssmoban.com/" title="网站模板" target="_blank">网站模板</a> - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a>
+
+		</div>
+
+		<div class="footer-tools">
+
+			<span class="go-top">
+
+			<i class="icon-angle-up"></i>
+
+			</span>
+
+		</div>
+
+	</div>
+
+	<!--添加弹框-->
+	<div id="myModal1" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h4 id="myModalLabel1">添加现场人员</h4>
+		</div>
+		<div class="modal-body" style="background-color: #fff">
+			<form action="#" class="form-horizontal">
+				<div class="control-group">
+					<label class="control-label"><span class="red">*</span>登录手机号：</label>
+					<div class="controls">
+						<input type="number" placeholder="请输入登录账号" class="m-wrap medium">
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"><span class="red">*</span>登录密码：</label>
+					<div class="controls">
+						<input type="password" placeholder="请输入登录密码" class="m-wrap medium">
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"><span class="red">*</span>确认密码：</label>
+					<div class="controls">
+						<input type="password" placeholder="请输入确认密码" class="m-wrap medium">
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"><span class="red">*</span>用户姓名：</label>
+					<div class="controls">
+						<input type="text" placeholder="请输入用户姓名" class="m-wrap medium">
+						<span class="help-inline"></span>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+			<button class="btn yellow">确认添加</button>
+		</div>
+	</div>
+
+	<!--修改弹框-->
+	<div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h4 id="myModalLabel2">修改现场人员信息</h4>
+		</div>
+		<div class="modal-body" style="background-color: #fff">
+			<form action="#" class="form-horizontal">
+				<div class="control-group">
+					<label class="control-label"><span class="red">*</span>登录账号：</label>
+					<div class="controls">
+						<input type="text" placeholder="请输入登录账号" class="m-wrap medium">
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"><span class="red">*</span>用户姓名：</label>
+					<div class="controls">
+						<input type="text" placeholder="请输入用户姓名" class="m-wrap medium">
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"><span class="red">*</span>用户手机号：</label>
+					<div class="controls">
+						<input type="number" placeholder="请输入用户手机号" class="m-wrap medium">
+						<span class="help-inline"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"><span class="red">*</span>用户状态：</label>
+					<div class="controls">
+						<label class="radio">
+							<div class="radio"><span><input type="radio" name="optionsRadios1" value="option1"></span></div>
+							正常
+						</label>
+						<label class="radio">
+							<div class="radio"><span class="checked"><input type="radio" name="optionsRadios1" value="option2" checked=""></span></div>
+							非正常
+						</label>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+			<button class="btn yellow">确认修改</button>
+		</div>
+	</div>
+
+	<!--冻结弹框-->
+	<div id="myModal3" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+		<div class="modal-body" style="background-color: #fff;font-size: 18px;" >
+			确定冻结当前账号？
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+			<button class="btn yellow">确定</button>
+		</div>
+	</div>
+
+	<script src="../media/js/jquery-1.10.1.min.js"></script>
+	<script src="../media/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../media/js/jquery-ui-1.10.1.custom.min.js"></script>
+	<script src="../media/js/bootstrap.min.js"></script>
+	<script src="../media/js/excanvas.min.js"></script>
+	<script src="../media/js/respond.min.js"></script>
+	<script src="../media/js/jquery.slimscroll.min.js"></script>
+	<script src="../media/js/jquery.blockui.min.js"></script>
+	<script src="../media/js/jquery.cookie.min.js"></script>
+	<script src="../media/js/jquery.uniform.min.js"></script>
+	<script src="../media/js/jquery.vmap.js"></script>
+	<script src="../media/js/jquery.vmap.russia.js"></script>
+	<script src="../media/js/jquery.vmap.world.js"></script>
+	<script src="../media/js/jquery.vmap.europe.js"></script>
+	<script src="../media/js/jquery.vmap.germany.js"></script>
+	<script src="../media/js/jquery.vmap.usa.js"></script>
+	<script src="../media/js/jquery.vmap.sampledata.js"></script>
+	<script src="../media/js/jquery.flot.js"></script>
+	<script src="../media/js/jquery.flot.resize.js"></script>
+	<script src="../media/js/jquery.pulsate.min.js"></script>
+	<script src="../media/js/date.js"></script>
+	<script src="../media/js/daterangepicker.js"></script>
+	<script src="../media/js/jquery.gritter.js"></script>
+	<script src="../media/js/fullcalendar.min.js"></script>
+	<script src="../media/js/jquery.easy-pie-chart.js"></script>
+	<script src="../media/js/jquery.sparkline.min.js"></script>
+	<script src="../media/js/app.js"></script>
+	<script src="../media/js/index.js"></script>
+	<script src="../media/js/app.js"></script>
+
+	<script type="text/javascript" src="../media/js/select2.min.js"></script>
+	<script type="text/javascript" src="../media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="../media/js/DT_bootstrap.js"></script>
+	<script src="../media/js/app.js"></script>
+	<script src="../media/js/table-editable.js"></script>
+	<script>
+
+        jQuery(document).ready(function() {
+
+            App.init(); // initlayout and core plugins
+
+            TableEditable.init();
+
+        });
+
+        $('.dropdown-toggle').on( 'click', function( e ) {
+            $('#tool').toggle();
+        } );
+
+	</script>
+</body>
+
+<!-- END BODY -->
+
+</html>

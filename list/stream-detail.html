@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>Metronic | Admin Dashboard Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="../media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../media/css/style-metro.css" rel="stylesheet" type="text/css"/>
+    <link href="../media/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="../media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+    <link href="../media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="../media/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+    <link href="../media/css/daterangepicker.css" rel="stylesheet" type="text/css" />
+    <link href="../media/css/fullcalendar.css" rel="stylesheet" type="text/css"/>
+    <link href="../media/css/jqvmap.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="../media/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+    <!-- END PAGE LEVEL STYLES -->
+    <link rel="stylesheet" type="text/css" href="../media/css/select2_metro.css" />
+    <link rel="stylesheet" href="../media/css/DT_bootstrap.css" />
+    <!-- END PAGE LEVEL STYLES -->
+    <link rel="shortcut icon" href="../media/image/favicon.ico" />
+    <link rel="stylesheet" href="../media/css/style/style-detail.css" />
+</head>
+
+<body class="page-header-fixed">
+
+<!-- 头部导航 -->
+<div class="header navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <!--顶部标题-->
+            <a class="brand" href="index.html">
+                <img src="../media/image/JianYuMIS%20v2.0.png" alt=""/>
+            </a>
+            <a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                <img src="media/image/menu-toggler.png" alt="" />
+            </a>
+            <ul class="nav pull-right">
+
+                <li class="dropdown user">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img alt="" src="../media/image/avatar1_small.jpg" />
+                        <span class="username">Adimin</span>
+                        <i class="icon-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="extra_lock.html"><i class="icon-lock"></i>修改密码</a></li>
+                        <li><a href="login.html"><i class="icon-key"></i>退出</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>-->
+
+<!-- 内容区-->
+<div class="page-container">
+    <!-- 侧边栏 -->
+    <div class="page-sidebar nav-collapse collapse">
+        <ul class="page-sidebar-menu">
+            <li>
+                <div class="sidebar-toggler hidden-phone"></div>
+            </li>
+            <li style="height: 20px;"></li>
+            <!--用户管理-->
+            <li class="start">
+                <a href="../list/index.html">
+                    <i class="icon-user"></i>
+                    <span class="title">用户管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+            <!--审核管理-->
+            <li class="">
+                <a href="../list/user-control.html">
+                    <i class="icon-magnet"></i>
+                    <span class="title">审核管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+            <!--车辆管理-->
+            <li class="">
+                <a href="../list/car-control.html">
+                    <i class="icon-truck"></i>
+                    <span class="title">车辆管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+            <!--托运单管理-->
+            <li class="">
+                <a href="../list/bookNode-control.html">
+                    <i class="icon-credit-card"></i>
+                    <span class="title">托运单管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+            <!--运单管理-->
+            <li class="">
+                <a href="../list/waybill-control.html">
+                    <i class="icon-print"></i>
+                    <span class="title">运单管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+            <!--承运单管理-->
+            <li class="">
+                <a href="../list/carrierSingle-control.html">
+                    <i class="icon-inbox"></i>
+                    <span class="title">承运单管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+            <!--结算管理-->
+            <li class="active">
+                <a href="javascript:;">
+                    <i class="icon-edit"></i>
+                    <span class="title">结算管理</span>
+                    <span class="arrow "></span>
+                </a>
+                <ul class="sub-menu">
+                    <li >
+                        <a href="account-control.html">结算</a>
+                    </li>
+                    <li>
+                        <a href="water-control.html">流水</a>
+                    </li>
+                </ul>
+            </li>
+            <!--设置管理-->
+            <li class="">
+                <a href="javascript:;">
+                    <i class="icon-cogs"></i>
+                    <span class="title">设置管理</span>
+                    <span class="arrow "></span>
+                </a>
+                <ul class="sub-menu">
+                    <li >
+                        <a href="client-control.html">客户管理</a>
+                    </li>
+                    <li >
+                        <a href="area-control.html">区域管理</a>
+                    </li>
+                    <li >
+                        <a href="line-control.html">线路管理</a>
+                    </li>
+                    <li >
+                        <a href="netin-control.html">入网检测管理</a>
+                    </li>
+                    <li >
+                        <a href="truck-control.html">多项设置管理</a>
+                    </li>
+                </ul>
+            </li>
+            <!--角色管理-->
+            <li class="">
+                <a href="jurisdiction-control.html">
+                    <i class="icon-key"></i>
+                    <span class="title">角色管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+            <!--人员管理-->
+            <li class="">
+                <a href="javascript:;">
+                    <i class="icon-group"></i>
+                    <span class="title">人员管理</span>
+                    <span class="arrow "></span>
+                </a>
+                <ul class="sub-menu">
+                    <li >
+                        <a href="system-control.html">系统人员管理</a>
+                    </li>
+                    <li >
+                        <a href="scene-control.html">现场人员管理</a>
+                    </li>
+                    <li >
+                        <a href="credentials-control.html">证件审核人员管理</a>
+                    </li>
+                    <li >
+                        <a href="info-control.html">信息部审核人员管理</a>
+                    </li>
+                    <li >
+                        <a href="accountPeo-control.html">结算人员管理</a>
+                    </li>
+                </ul>
+            </li>
+            <!--菜单管理-->
+            <li class="last">
+                <a href="menu-control.html">
+                    <i class="icon-sitemap"></i>
+                    <span class="title">菜单管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+            <!--广告管理-->
+            <li class="">
+                <a href="advertising-control.html">
+                    <i class="icon-print"></i>
+                    <span class="title">广告管理</span>
+                    <span class="selected"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 内容块 -->
+
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row-fluid" style="margin-top: 20px;">
+                <div class="span12">
+                    <ul class="breadcrumb bal-title">
+                        <li>
+                            <i class="icon-home"></i>
+                            <a href="index.html">Home</a>
+                            <i class="icon-angle-right"></i>
+                        </li>
+                        <li><a href="./account-control.html">结算管理</a><i class="icon-angle-right"></i></li>
+                        <li><a href="#">结算详情</a></li>
+                        <li class="derive-data"><button>导出数据</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row-fluid bal-detail">
+                <div class="span4 bal-first">
+                    <div class="portlet box bal">
+                        <div class="portlet-title">
+                            <div class="caption">流水详情</div>
+                            <div class="caption-rg">
+                                <span>承运单状态：待结算</span>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="row-fluid">
+                                <div class="span12">结算单号：<span >MXWJXPAI305968</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">车牌号：<span>津MWM406</span></div>
+                                <div class="span6">司机姓名：<span>王蒙</span></div>
+                            </div>
+                            <div class="row-fluid no-top1">
+                                <div class="span12">联系人电话：<span>13588633018</span></div>
+                            </div>
+                            <div class="row-fluid no-top1">
+                                <div class="span6">运费金额：<span>15889.00元</span></div>
+                                <div class="span6">承运净吨数：<span>33.00吨</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">亏吨数：<span>33.00吨</span></div>
+                                <div class="span6">扣罚金额：<span>15.32元</span></div>
+                            </div>
+
+                            <div class="div-space"></div>
+
+                            <div class="row-fluid">
+                                <div class="row-fluid">
+                                    <div class="span6">平台补贴：<span>0.00元</span></div>
+                                    <div class="span6">结算方式：<span>自动结算</span></div>
+                                </div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">应付金额：<span>15880.00元</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">实付金额：<span>15880.00元</span></div>
+                            </div>
+
+                            <div class="div-space"></div>
+
+                            <div class="row-fluid">
+                                <div class="span12">结算单创建时间：<span>20181009 15:26:30</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">结算时间：<span>20181009 15:26:30</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">支付时间：<span>20181009 15:26:30</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">支付流水号：<span>266665566333</span></div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="span4 wb-sec">
+                    <div class="portlet box bal">
+                        <div class="portlet-title">
+                            <div class="caption">运单信息</div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="row-fluid">
+                                <div class="span12">承运单号：<span>CY18101015263601</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">承运单接单时间：<span>2018-10-09 15:26:30</span></div>
+                            </div>
+                            <div class="row-fluid no-top1">
+                                <div class="span12">所属托运单编号：<span class="wb-number">TU18100915263412</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">所属托运单名称：<span>建宇智运001</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">托运单发布时间：<span>2018-09-09 15:12:23</span></div>
+                            </div>
+                            <div class="row-fluid no-top1">
+                                <div class="span6">发布人：<span>建宇智运</span></div>
+                                <div class="span6">托运人：<span>建宇智运</span></div>
+                            </div>
+                            <div class="row-fluid no-top1">
+                                <div class="span12">所属运单编号：<span class="wb-number">UD18100915263412</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">所属线路：<span>东周窑煤矿--阳原站台</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">运单发布时间：<span>2018-09-09 15:12:23</span></div>
+                            </div>
+                            <div class="row-fluid no-top1">
+                                <div class="span6">运费单价：<span>500.00元/吨</span></div>
+                                <div class="span6">货物单价：<span>500.00元/吨</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">装车费用：<span>500.00元/吨</span></div>
+                                <div class="span6">卸车费用：<span>500.00元/吨</span></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">货物热值：<span>500.00元/吨</span></div>
+                                <div class="span6">车辆停留时间：<span class="wb-status">异常</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="span4 pd-third">
+                    <div class="portlet box bal">
+                        <div class="portlet-title">
+                            <div class="caption">磅单信息</div>
+                        </div>
+                        <div class="portlet-body" style="height: 220px;">
+                            <div class="row-fluid">
+                                <div class="span6">装车毛重：<span class="wg-num">0.000</span>吨</div>
+                                <div class="span6">卸车毛重：<span class="wg-num">0.000</span>吨</div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">装车皮重：<span class="wg-num">0.000</span>吨</div>
+                                <div class="span6">卸车皮重：<span class="wg-num">0.000</span>吨</div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">装车净重：<span class="wg-num">0.000</span>吨</div>
+                                <div class="span6">卸车净重：<span class="wg-num">0.000</span>吨</div>
+                            </div>
+
+                            <div class="div-space"></div>
+
+                            <div class="row-fluid">
+                                <div class="span6">装车榜单图片：<a class="click-look-img"  href="#myModal1" data-toggle="modal">点击查看</a></div>
+                                <div class="span6">卸车榜单图片：<a class="click-look-img" href="#myModal2" data-toggle="modal">点击查看</a></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">装车榜单确认单：<a class="click-look-bill" href="#myModal3" data-toggle="modal">点击查看</a></div>
+                                <div class="span6">卸车榜单确认单：<a class="click-look-bill" href="#myModal4" data-toggle="modal">点击查看</a></div>
+                            </div>
+
+                            <div class="div-bt-space"></div>
+
+                        </div>
+
+                    </div>
+                    <div class="portlet box yellow">
+
+                        <div class="portlet-title">
+
+                            <div class="caption">轨迹信息</div>
+
+                        </div>
+
+                        <div class="portlet-body">
+
+                            <img style="width: 100%;height: auto" src="../media/image/bg/maps.png" alt="">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+
+        <div class="footer-inner">
+
+            2013 &copy; Metronic by keenthemes.Collect from <a href="http://www.cssmoban.com/" title="网站模板" target="_blank">网站模板</a> - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a>
+
+        </div>
+
+        <div class="footer-tools">
+
+			<span class="go-top">
+
+			<i class="icon-angle-up"></i>
+
+			</span>
+
+        </div>
+
+    </div>
+
+    <div id="myModal1" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h3 id="myModalLabel1">装车榜单图片</h3>
+        </div>
+        <div class="modal-body">
+            <p></p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+            <button class="btn yellow">确定</button>
+        </div>
+
+    </div>
+    <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h3 id="myModalLabel2">卸车榜单图片</h3>
+        </div>
+        <div class="modal-body">
+            <p></p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+            <button class="btn yellow">确定</button>
+        </div>
+    </div>
+    <div id="myModal3" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h3 id="myModalLabel3">装车榜单确认单</h3>
+        </div>
+        <div class="modal-body">
+            <p></p>
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+            <button class="btn yellow">确定</button>
+        </div>
+
+    </div>
+    <div id="myModal4" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h3 id="myModalLabel4">卸车榜单确认单</h3>
+        </div>
+
+        <div class="modal-body">
+            <p></p>
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+            <button class="btn yellow">确定</button>
+        </div>
+
+    </div>
+
+</div>
+    <script src="../media/js/jquery-1.10.1.min.js"></script>
+    <script src="../media/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../media/js/jquery-ui-1.10.1.custom.min.js"></script>
+    <script src="../media/js/bootstrap.min.js"></script>
+    <script src="../media/js/excanvas.min.js"></script>
+    <script src="../media/js/respond.min.js"></script>
+    <script src="../media/js/jquery.slimscroll.min.js"></script>
+    <script src="../media/js/jquery.blockui.min.js"></script>
+    <script src="../media/js/jquery.cookie.min.js"></script>
+    <script src="../media/js/jquery.uniform.min.js"></script>
+    <script src="../media/js/jquery.vmap.js"></script>
+    <script src="../media/js/jquery.vmap.russia.js"></script>
+    <script src="../media/js/jquery.vmap.world.js"></script>
+    <script src="../media/js/jquery.vmap.europe.js"></script>
+    <script src="../media/js/jquery.vmap.germany.js"></script>
+    <script src="../media/js/jquery.vmap.usa.js"></script>
+    <script src="../media/js/jquery.vmap.sampledata.js"></script>
+    <script src="../media/js/jquery.flot.js"></script>
+    <script src="../media/js/jquery.flot.resize.js"></script>
+    <script src="../media/js/jquery.pulsate.min.js"></script>
+    <script src="../media/js/date.js"></script>
+    <script src="../media/js/daterangepicker.js"></script>
+    <script src="../media/js/jquery.gritter.js"></script>
+    <script src="../media/js/fullcalendar.min.js"></script>
+    <script src="../media/js/jquery.easy-pie-chart.js"></script>
+    <script src="../media/js/jquery.sparkline.min.js"></script>
+    <script src="../media/js/app.js"></script>
+    <script src="../media/js/index.js"></script>
+    <script src="../media/js/app.js"></script>
+
+    <script type="text/javascript" src="../media/js/select2.min.js"></script>
+    <script type="text/javascript" src="../media/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="../media/js/DT_bootstrap.js"></script>
+    <script src="../media/js/app.js"></script>
+    <script src="../media/js/table-editable.js"></script>
+    <script>
+
+        jQuery(document).ready(function() {
+
+            App.init(); // initlayout and core plugins
+
+            TableEditable.init();
+
+        });
+
+        $('.dropdown-toggle').on( 'click', function( e ) {
+            $('#tool').toggle();
+        } );
+
+    </script>
+
+    <!-- END JAVASCRIPTS -->
+
+</body>
+
+<!-- END BODY -->
+
+</html>

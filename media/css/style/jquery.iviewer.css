@@ -1,0 +1,42 @@
+.viewer {
+    -ms-touch-action: none;
+}
+.viewer img {
+    image-orientation: from-image;
+}
+.iviewer_common {
+    position:absolute;
+    bottom:10px;
+    height: 28px;
+    z-index: 5000;
+}
+
+.iviewer_button {
+    width: 28px;
+    cursor: pointer;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.iviewer_zoom_status {
+    left: 160px;
+    font: 1em/28px Sans;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    width: 60px;
+}
+
+.iviewer_rotate_left {
+    /*left: 367px;*/
+    right: 50px;
+    background:url(../../../media/image/bg/left-arrow.png) center center no-repeat;
+    background-size: 90% 90%;
+}
+
+.iviewer_rotate_right {
+    /*left: 402px;*/
+    right: 10px;
+    background:url(../../../media/image/bg/right-arrow.png)  center center no-repeat;
+    background-size: 90% 90%;
+}

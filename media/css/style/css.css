@@ -1,0 +1,554 @@
+.sub-body{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.pre-back{
+    margin-top: 20px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 2em;
+    font-size: 14px;
+    color: #ff9f00;
+}
+.sub-page-box{
+    padding: 40px 20px;
+}
+.userhead{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.userInfo .usercon .grid-demo{
+    text-align: left;
+    line-height: 25px;
+    font-size: 12px;
+}
+.userInfo .usercon .layui-line-one{
+    line-height: 50px !important;
+}
+.userinfo-table{
+    margin-top: 10px;
+}
+.userInfo .usercon .layui-line-last{
+    margin: 30px 0;
+}
+.layui-line-last .layui-btn{
+    border-radius: 4px;
+    background-color: #F3F3F3;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.layui-line-one span{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+.layui-line-one label{
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.layui-col-md8 .layui-line-one{
+    font-size: 14px !important;
+    margin-bottom: 20px;
+}
+.layui-line-one span.label_1{
+    background-color: #7060a9;
+}
+.layui-line-one span.label_2{
+    background-color: #0795d7;
+}
+.layui-line-one span.label_3{
+    background-color: #50ba4b;
+}
+.grid-select{
+    width: 70%;
+}
+.layui-table-view .layui-table {
+    width:100%;
+}
+.layui-table-cell{
+    text-align: center;
+}
+
+.table-menu .table-menu11{
+    width: 100%;
+    margin: 15px auto 0;
+    background: #f5f6fa;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #555;
+    border: solid 1px #e4e6eb;
+}
+.table-menu .table-menu11 li{
+    float: left;
+    width: 9.09%;
+    text-align: center;
+}
+.vehicle_list{
+    margin: 0 auto;
+}
+.vehicle_list li{
+    position: relative;
+    width: 100%;
+    border:solid 1px #e1e6eb;
+    border-top-style: none;
+    background: #fff;
+}
+.vehicle_list li:hover{
+    background: #f9f9fa;
+}
+.vehicle_list li span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 9.09%;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#paging {
+    margin-top: 20px;
+    text-align: center;
+}
+.page{
+    margin-top: 20px;
+    text-align: center;
+}
+.queryTable{
+    text-align: right;
+}
+.export-btn{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.selectStatus .list-1{
+    height: 38px;
+    border: none;
+    background: #f5f6fa;
+    position: relative;
+    left: -2px;
+    color: #999;
+    width: auto;
+    text-align: center;
+    text-align-last: center;
+}
+.sort_p{
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 8px solid #666666;
+    position: relative;
+    top: -12px;
+    left: 3px;
+}
+.sort_n{
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #666666;
+    position: relative;
+    top: 14px;
+    left: 3px;
+}
+.my-page-main{
+     font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+     text-align: center;
+     padding: 20px;
+     background-color: white;
+}
+.operate a{
+    color: #ff9f00;
+    cursor: pointer;
+}
+.labelInfo{
+    padding: 15px 10px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+.user-line{
+    line-height: 25px !important;
+}
+.labelInfo p{
+    display: block;
+    /*border-bottom: 1px solid #eee;*/
+    padding: 5px 0;
+}
+.labelInfo p b{
+    display: inline-block;
+    width: 50%;
+    font-weight: normal;
+}
+.grid-rg input[type="text"]{
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    line-height: 38px;
+    text-indent: 1em;
+}
+.labelInfo p b label{
+    display: inline-block;
+    width: 40%;
+}
+.labelInfo p b span{
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+.labelInfo p > label{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+.labelInfo p > span{
+    display: inline-block;
+    width: 75%;
+    text-align: left;
+}
+.labelInfo p > span.remark{
+    margin-top: 8px;
+    line-height: 20px;
+}
+.btn-area{
+    margin-bottom: 10px;
+    text-align: right;
+}
+.btn-area button.search-btn{
+    margin-right: 30px;
+    width: 100px;
+}
+.btn-area button.cancle-btn{
+    height: 30px;
+    line-height: 30px;
+    background-color: #ccc;
+}
+.labelInfo select{
+    width: 95%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.layui-input-block{
+    display: inline-block;
+}
+.labelInfo .role-area{
+    display: inline-block;
+}
+.labelInfo .role-area label{
+    display: inline-block;
+    width: 50%;
+}
+.labelInfo .role-area label input{
+    zoom: 120%;
+}
+.labelInfo .role-area label cite{
+    margin-left: 5px;
+    font-style: normal;
+}
+
+.radio-btn input[type="radio"] + i::before {
+    content: "\a0";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 8px;
+    height: 8px;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #ff9f00;
+    text-indent: .15em;
+    line-height: 1;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.radio-btn input[type="radio"]:checked + i::before {
+    background-color: #ff9f00;
+    background-clip: content-box;
+    padding: 2px;
+}
+
+.radio-btn input[type="radio"] {
+    position: relative;
+    left: 14px;
+    top: 3px;
+    opacity: 0;
+    cursor: pointer;
+    margin: 0;
+}
+.radio-btn i{
+    font-style: normal;
+}
+.remark textarea{
+    resize: none;
+    width: 95%;
+    height: 70px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    line-height: 20px;
+    text-indent: 1em;
+}
+.my-skin .layui-layer-btn a:first-child{
+    background: #ff9f00;
+    border: none;
+}
+.bankName{
+    width: 95%;
+    height: 35px;
+    border: 1px solid #ccc;
+    text-indent: 0.8em;
+    border-radius: 3px;
+}
+.layui-form-select dl dd.layui-this{
+    background: #ff9f00;
+}
+#out{
+    width:500px;
+    height:140px;
+    margin: 160px 350px;
+}
+#ser_box{
+    width:500px;
+    height:32px;
+    border: 1px solid blue;
+    text-align: center;
+}
+#bot_box {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    line-height: 30px;
+    width: 68%;
+    /*min-height: 50px;*/
+    border-top: none;
+    display: none;
+    margin-left: 122px;
+    margin-top: -6px;
+    z-index: 9999;
+    background: #fff;
+}
+
+#bot_box ul li{
+    list-style: none;
+    line-height: 25px;
+    padding-left: 10px;
+}
+#bot_box ul li:hover{
+    background: #BCBCBC;
+}
+.s_btn {
+    position:relative;
+    left:300px;
+    top:-31px;
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #ff3000;
+    outline: medium;
+}
+.sel{
+    background:#BCBCBC;
+}
+.style{
+    width: 70%;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-indent: 10px;
+}
+#test6{
+    width: 200px;
+}
+.layui-col-pre{
+    border: none !important;
+}
+.layui-col-xs6{
+    border-right: 1px dotted #C9C5C5;
+}
+.layui-col{
+    height: 65px;
+    line-height: 65px;
+}
+.layui-col-md2,.layui-col-md3{
+    text-align: right;
+}
+.layui-col-md10,.layui-col-md9{
+    text-align: left;
+    text-indent: 2em;
+}
+.layui-row-btn{
+    margin-top: 40px;
+    line-height: 60px;
+}
+
+
+
+.layui-btn-fluid {
+    width: 10%;
+    letter-spacing: 2px;
+}
+.grid-rg-v input[type="text"]{
+    width: 53.5%;
+}
+.grid-rg-v input[type="file"]{
+    width: 40%;
+}
+.grid-rg-e input[type="file"]{
+    display: inline-block;
+    width: 30%;
+}
+a{
+    text-decoration:none;
+}
+a.check{
+    display: inline-block;
+    width: 12%;
+    color: #ff9f00;
+    font-weight: 600;
+
+}
+a.example{
+    display: inline-block;
+    width: 13%;
+    color: #ff3000;
+    font-weight: 600;
+}
+a.e-example{
+    display: inline-block;
+    width: 12%;
+    color: #ff3000;
+    font-weight: 600;
+}
+.grid-rg-v button{
+    width: 16%;
+    position: relative;
+    top: -2px;
+    border: 1px solid #ff9f00;
+    color: #ff9f00;
+}
+.imgInfo{
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center !important;
+    width: 385px;
+    height: 248px;
+}
+.imgInfo img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.grid-only input[type="text"]{
+    background: #eee !important;
+}
+#certifyInfo .info_lf{
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+}
+#certifyInfo .info_rg{
+    padding: 30px;
+    width: 55%;
+}
+#certifyInfo .info_lf, #certifyInfo .info_rg{
+    float: left;
+    /*height: 400px;*/
+    /*border: 1px solid #FF5722;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#imgContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 329px;
+}
+#certifyInfo .info_lf img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+.info_rg ul li{
+    line-height: 40px;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+}
+.info_rg ul li label{
+    display: inline-block;
+    width: 36%;
+}
+.info_rg ul li span{
+    margin-right: 10px;
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+}
+.info_rg ul li:nth-child(2){
+    line-height: 20px;
+}
+#pageContent {width: 800px;	overflow: hidden;position:relative;margin:30px auto;}
+#imgContainer {width: 800px;height: 400px; border: 1px solid #ff9f00; border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+.infoContainer{
+    padding: 30px 20px;
+}
+.infoContainer ul li{
+    line-height: 40px;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+}
+.infoContainer ul li{
+    line-height: 30px;
+}
+.infoContainer ul li label{
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+}
+.infoContainer ul li span{
+    margin-right: 10px;
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+    text-indent: 1em;
+}
+.pageClose{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    font-size: 30px;
+    text-decoration: none;
+    color: #ff9f00;
+}
+.delete{
+    color: #ff3000 !important;
+}
+

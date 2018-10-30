@@ -1,0 +1,312 @@
+/*公共样式*/
+.top-td{
+    width: 80% !important;
+    margin-left: 20% !important;
+}
+.top-td1{
+    width: 90% !important;
+    margin-left: 12.2% !important;
+}
+.top-td2{
+    width: 100% !important;
+    margin-left: 1px !important;
+}
+.top-td4{
+    width: 101% !important;
+    margin-left: 1px !important;
+}
+.top-td3{
+    width: 70% !important;
+    margin-left: 20% !important;
+}
+.no-top{
+    margin-top: 30px !important;
+}
+.no-top1{
+    margin-top: 20px !important;
+}
+.no-top2{
+    margin-top: 10px !important;
+}
+.no-bot{
+    margin-bottom: 18px !important;
+}
+.no-right{
+    margin-right: 10px;
+}
+.no-left{
+    float: left;
+    margin-right: 4px;
+}
+/*用户管理*/
+.in-wid{
+    color: #555;
+    font-size: 16px;
+}
+.index-left{
+    margin-right: 20px;
+}
+.index-bg{
+    background-color:#F0F6FA;
+    border-left:2px solid #169EF4;
+    line-height: 30px;
+}
+.index-bg-p{
+    margin-left: 16px;
+    font-size: 14px;
+    color: #000;
+}
+.index-one-bd{
+    font-size: 12px;
+    color: #000;
+    margin-top: 12px;
+    height: 220px;
+}
+.one-name-bd{
+    float: left;
+    color: #555;
+}
+.sty-bd{
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.in-button{
+    height: 32px;
+    margin-top: 0px;
+    background-color: #4B8DF8;
+    border: 1px solid #ccc;
+    line-height: 32px;
+    padding-right: 28px;
+    padding-left: 26px;
+    color: #fff;
+    border-radius: 8px !important;
+}
+.in-button1{
+    height: 32px;
+    margin-top: 0px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    line-height: 32px;
+    padding-right: 4px;
+}
+.in-button2{
+    color:#4B8DF8;
+    line-height: 20px;
+}
+
+.one-number-bd{
+    float: left;
+    margin-left: 52px;
+    color: #555;
+}
+.one-user-bd{
+    float: left;
+    margin-left: 34px;
+    color: #555;
+}
+.one-bd1{
+    margin-bottom: 16px;
+}
+.one-check{
+    margin-left: 10px;
+    color: #FCB322;
+}
+.one-check:hover{
+    cursor: pointer;
+    color: #FCB322;
+}
+.one-title{
+    width: 100%;
+    color: #169EF4;
+    font-size:12px;
+    float: left;
+    margin-top: 10px;
+}
+.one-title1{
+    margin-left: 36px;
+    font-size: 12px;
+    color: #555;
+}
+.one-bd{
+    color: #555;
+}
+.index-two-left{
+    border:1px solid #ccc;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+}
+.index-two-right{
+    border:1px solid #ccc;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.index-two-right-t{
+    font-size: 34px;
+    color:#169ef4;
+    margin-top: 10px;
+}
+.index-two-right-s{
+    font-size: 12px;
+    color:#555;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+/*运单管理*/
+.waybill-content{
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.waybill-left{
+    width: 38%;
+    height:460px;
+    float: left;
+}
+.waybill-right{
+    width: 55%;
+    height:460px;
+    float: left;
+}
+.red{
+    color: #CE0909;
+}
+/*审核管理*/
+.user-top-left{
+    width: 40%;
+    padding-top: 40px;
+    display: block;
+    float: left;
+    color: #555;
+}
+.user-top-right{
+    padding-top: 40px;
+    display: block;
+    float: left;
+}
+.user-bg{
+    background-color:#F0F6FA;
+    border-left:2px solid #169EF4;
+    line-height: 40px;
+    width: 400px;
+    color: #555;
+    margin-bottom:20px;
+    margin-left: 20px;
+}
+.user-right-img{
+    width: 150px;
+    height: 110px;
+    margin-right: 37px;
+    float: left;
+}
+.user-p{
+    text-align: center;
+    margin-top: 10px;
+}
+.user-big-icon{
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 83px;
+}
+.user-btn{
+    width: 104px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*托运单管理*/
+.book-top-left{
+    width: 18%;
+    padding-top: 40px;
+    display: block;
+    float: left;
+    color: #555;
+    margin-right: 30px;
+}
+.book-bg{
+    background-color:#F0F6FA;
+    border-left:2px solid #169EF4;
+    line-height: 40px;
+    width: 288px;
+    color: #555;
+    margin-bottom:20px;
+    margin-left: 20px;
+}
+/*承运单管理*/
+.carr-sty{
+    width: 30%;
+    margin-right: 30px;
+}
+.arr-p1{
+    padding: 20px;
+}
+.arr-span{
+    color: blue;
+}
+.arr-p{
+    float: left;
+}
+.arr-div{
+    display:block;
+    width: 100%;
+    height: 40px;
+}
+.arr-div1{
+    margin: 20px;
+    margin-top:30px;
+    height: 46px;
+}
+.arr-div2{
+    float: left;
+    height: 40px;
+    margin-left: 70px;
+}
+.arr-div3{
+    margin: 20px;
+    margin-top:30px;
+    height: 102px;
+}
+.arr-div4{
+    float: left;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.arr-h{
+    margin: 20px;
+}
+.arr-h1{
+    margin: 20px;
+    margin-top:30px;
+    height: 66px;
+}
+.arr-h2{
+    float: left;
+    height: 40px;
+    margin-left: 100px;
+}
+.arr-h3{
+    margin: 20px;
+    margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

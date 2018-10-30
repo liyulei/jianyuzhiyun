@@ -1,0 +1,220 @@
+.veh-info .span2{
+    background: #f0f6fa;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-left: 3px solid #7ecef4;
+    color: #3d3d3d;
+}
+.input-info{
+    padding: 10px;
+}
+.input-info label{
+    display: inline-block;
+}
+.input-append{
+
+    display: inline-block;
+    margin-bottom: 0 !important;
+}
+.date-cel{
+    position: relative;
+    top: 16px;
+}
+.input-info label a{
+    font-size: 12px;
+    color: #fcb322;
+    padding: 0 20px 0 10px;
+    cursor: pointer;
+}
+.input-info .btn-playback{
+    position: relative;
+    top: -2px;
+    background: #ff9600;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #fff;
+    border: 0;
+    width: 60px;
+    outline:none;
+}
+.date{
+    position: relative;
+    top: 3px;
+}
+.showMap{
+    border: 1px solid #eee;
+    width: 100%;
+    height: 500px;
+}
+.portlet.box .portlet-title {
+    padding: 0 0 0 10px;
+}
+.caption-rg{
+    float: right;
+    background: #57b5e3;
+}
+.caption-rg li{
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+}
+.caption-rg li:nth-child(1){
+    width: 150px;
+    background: #57b5e3;
+}
+.caption-rg li:nth-child(2){
+    width: 100px;
+    background: #ffb848;
+    cursor: pointer;
+}
+.portlet-title .caption{
+    margin-bottom: 0;
+    line-height: 35px;
+}
+.wb-detail{
+    border: none !important;
+}
+.wb-info .span3:nth-child(1){
+    border: 1px solid #d74c47;
+}
+.wb-info .span3:nth-child(2){
+    border: 1px solid #f9a42c;
+}
+.wb-info .span3:nth-child(3){
+    border: 1px solid #5cb55c;
+}
+.wb-info .span3:nth-child(4){
+    border: 1px solid #0d8fd0;
+}
+.wb-info .span3{
+    padding: 20px 0;
+}
+.wb-info .span3 li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.wb-info .span3 li span:nth-child(1){
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+.wb-info .span3 li span:nth-child(2){
+    text-indent: 1em;
+    display: inline-block;
+    width: 60%;
+}
+.carr-list{
+    border: 1px solid #35aa47;
+}
+.carr-list .portlet-title{
+    border-top: 3px solid #35aa47;
+}
+.btn-search{
+    background: #ffb848;
+    color: #fff;
+    position: relative;
+    top: -6px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    border: 0;
+    width: 60px;
+    outline:none;
+}
+.search-area{
+    padding: 10px 0 10px;
+}
+.btn-op a:first-child{
+    margin-right: 20px;
+}
+.derive-data{
+    float: right;
+    clear: both;
+}
+.derive-data button{
+    border: 0;
+    background: #ffb848;
+    line-height: 37px;
+    height: 37px;
+    width: 100px;
+    outline: none;
+    color: #fff;
+}
+.bal-title{
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 37px;
+}
+.bal-detail .caption{
+    font-size: 14px;
+}
+.bal-detail{
+    line-height: 35px;
+}
+.bal-detail .caption-rg span{
+    display: inline-block;
+    height: 100%;
+    padding: 0 30px;
+}
+.bal-first .box.bal{
+    border: 1px solid rgba(75,141,248,0.1) !important;
+    background: #4b8df8;
+}
+.div-space{
+    height: 30px;
+}
+.bal-detail .portlet-body{
+    padding: 10px 30px !important;
+}
+.wb-sec .box.bal{
+    border: 1px solid rgba(133,43,153,0.1) !important;
+    background: #852b99;
+}
+.pd-third .box.bal{
+    border: 1px solid rgba(40,183,121,0.1) !important;
+    background: #28b779;
+}
+.div-bt-space{
+    height: 275px;
+}
+.click-look-img{
+    color: #852b99;
+    cursor: pointer;
+    font-size: 12px;
+}
+.click-look-bill{
+    color: #ffb848;
+    cursor: pointer;
+    font-size: 12px;
+}
+.wg-num{
+    color: #28b779;
+}
+.wb-number{
+    color: #4b8df8;
+}
+.wb-status{
+    color: #ff0000;
+}
+.bal-cash{
+    color: #ffb848;
+}
+.modal-body p{
+    border: 1px solid #eee;
+    width: 80%;
+    margin: 30px auto;
+    height: 400px;
+}
+.modal-header h3{
+    font-size: 18px;
+}
+.bal-span span{
+    display: inline-block;
+    padding: 6px 6px !important;
+    line-height: 20px;
+    font-size: 14px;
+    vertical-align: top;
+}

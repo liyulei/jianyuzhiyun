@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../media/css/style/css.css">
+    <link rel="stylesheet" href="../media/css/style/jquery.iviewer.css" />
+    <style>
+        *{ margin:0; padding:0;}
+        body {position: relative;}
+        .viewer
+        {
+            width: 80%;
+            height: 300px;
+            border: 1px solid #169BD5;
+            position: relative;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left: 78px;
+        }
+        .wrapper
+        {
+            overflow: hidden;
+        }
+    </style>
+
+<!--[if lt IE 9]>
+<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="pageContent">
+    <!--<div id="imgContainer">-->
+        <!--<img id="imageFullScreen" src="../frame/static/image/img_5.png" />-->
+    <!--</div>-->
+    <div class="wrapper">
+        <div id="viewer2" class="viewer" >
+        </div>
+    </div>
+
+    <div class="infoContainer">
+        <ul>
+            <li><label>从业资格证号：</label><span>032467890000088878767</span></li>
+            <li><label>发证单位：</label><span>替代文字替代文字替代文字替代文字替代文字替代文字替代文字替代文字</span></li>
+            <li><label>证件初次领取日期：</label><span>032467890000088878767</span></li>
+            <li><label>期限开始日期：</label><span>032467890000088878767</span></li>
+            <li><label>期限结束日期：</label><span>032467890000088878767</span></li>
+            <li><label>是否过期：</label><span>032467890000088878767</span></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="../media/js/jquery-1.10.1.min.js"></script>
+<!--<script type="text/javascript" src="../frame/static/js/e-smart-zoom-jquery.min.js"></script>-->
+<!--<script type="text/javascript" src="../frame/static/js/jQueryRotate.2.2.js"></script>-->
+<script type="text/javascript" src="../media/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../media/js/jqueryui.js"></script>
+<script type="text/javascript" src="../media/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="../media/js/jquery.iviewer.js"></script>
+<script>
+    // $(document).ready(function() {
+    //
+    //     $('#imageFullScreen').smartZoom({'containerClass':'zoomableContainer'});
+    //
+    // });
+
+    var $ = jQuery;
+    $(document).ready(function(){
+        var iv2 = $("#viewer2").iviewer({
+            src: "../media/image/bg/1.jpg"
+        });
+    });
+</script>
+
+</body>
+</html>
