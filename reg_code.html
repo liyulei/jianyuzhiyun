@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <script language="JavaScript" type="text/javascript" src="/web_ad/js/jquery3.2.1.min.js"></script>
+    <script type="text/javascript" src='https://webapi.amap.com/maps?v=1.4.9&key=8728bde18ddc304ed01e6e0b9f586bc6'></script>
+    <script src="https://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="phone" name="phone">
+        <input type="text" id="code" name="code">
+        <button onclick="get_code()">获取验证码</button>
+    </div>
+<script src="./js/public.js"></script>
+<script type="text/javascript">
+
+    function get_code(){
+        //获取页面数据
+        var url = host+"index.php/Admin/Login/get_reg_code";
+        var param = "phone="+$("#phone").val();
+        post_ck(url,param,"get_reg_code");
+    }
+    function get_reg_code(data){
+        $("#code").val(data.code);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <script language="JavaScript" type="text/javascript" src="/web_ad/js/jquery3.2.1.min.js"></script>
+    <script type="text/javascript" src='https://webapi.amap.com/maps?v=1.4.9&key=8728bde18ddc304ed01e6e0b9f586bc6'></script>
+    <script src="https://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+    <style type="text/css">
+        body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+    </style>
+</head>
+<body>
+    <div id="allmap"></div>
+<script src="./js/public.js"></script>
+<script type="text/javascript">
+
+    //轨迹速度倍率
+    var s_num = 500;
+    var path_arr = new Array();
+
+    //获取页面数据
+    var url = host+"index.php/User/Order/now_order_line";
+    var param = "token="+getURLParameter("token");
+    post_ck_jsonp(url,param,"put_path_arr");
+    function put_path_arr(data){
+        if(!data.length){
+            //alert("没有轨迹数据");
+            map_start();
+        }else{
+            for(var i=0;i<data.length;i++){
+                var gps = data[i].location;
+                gps = gps.split(",");
+                path_arr.push(new AMap.LngLat(gps[0],gps[1]));
+            }
+            map_start();
+        }
+
+    }
+    //展示地图及轨迹
+    function map_start(){
+        var map = new AMap.Map('allmap');
+        AMapUI.load(['ui/misc/PathSimplifier', 'lib/$'], function(PathSimplifier, $) {
+            var pathSimplifierIns = new PathSimplifier({
+                zIndex: 100,
+                map: map, //所属的地图实例
+
+                getPath: function(pathData) {
+                    return pathData.path;
+                },
+                renderOptions: {
+                    renderAllPointsIfNumberBelow: 100 //绘制路线节点，如不需要可设置为-1
+                }
+            });
+            window.pathSimplifierIns = pathSimplifierIns;
+            //设置数据
+            pathSimplifierIns.setData([{
+                path: path_arr
+            }]);
+            //对第一条线路（即索引 0）创建一个巡航器
+            var navg1 = pathSimplifierIns.createPathNavigator(0, {
+                loop: false,
+                speed: 80*s_num
+            });
+            navg1.start();
+        });
+    }
+
+</script>
+</body>
+</html>
